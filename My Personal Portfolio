@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Project</title>
+     <link rel="stylesheet" href="styles_Q1Project.css"
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <img id="logo" src="Screenshot 2026-09-22 at 8.31.54 AM.png" width="100" class="icon">
+            <ul class="navlinks">
+                
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#works">My Works</a></li>
+                <li><a href="">Contact Me</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="hero">
+        <div class="adamicus">
+            <img  src="Bongbong adamos.jpg" alt="profile picture" class="pfp" width="150" >
+        </div>
+        <div class="herotext">
+        <h1>The Glorious Works of Premier Adamos</h1>
+        <p>Prime Minister of the Sixth Republic of the Philippines and aspiring Game Developer</p>
+        </div>
+        
+    </section>
+
+
+    <section id="about">
+        <br>
+        <div class="herotext">
+       <h1>About Me</h1>
+
+        </div>
+        <p>I am Adamos, an aspiring game developer who started out on scratch, but is now moving on to platforms like roblox and unity, and currently trying to learn web development! |which is what this page is for|</p>
+    </section>
+
+
+    <section id="works">
+        <div class="herotext">
+        <h1>My Works</h1>
+
+        </div>
+        <div class="works-gallery">
+
+
+            <div class="work-item">
+                <img src="Screenshot 2026-09-21 at 10.57.50 PM.png" style="border: 2px dashed black" width="350px">
+                <p>World of Wolves (2025)</p>
+            </div>
+
+
+            <div class="work-item">
+                <ul>
+                    <li> My pride and joy, released 2025.</li>
+                    <li> Worked on by me and 4 other people... Mostly me, actually.</li>
+                    
+                    <li> <a href="https://www.cocrea.world/gandi?projectId=1914247964768964610">Play</a></li>
+                </ul>
+            </div>
+
+
+            <div class="work-item">
+                <img src="Screenshot 2026-09-21 at 10.56.58 PM.png" alt="Drill1" style="border: 2px dashed black" width="350px">
+                <p>Investigators! (2024)</p>
+            </div>
+
+
+            <div class="work-item">
+                <ul>
+                    <li> A solo project, inspired by the Ace Attorney games.</li>
+                    <li> Currently still a demo, and will forever stay that way.</li>
+                    
+                    <li> <a href="https://scratch.mit.edu/projects/1136419907/fullscreen/">Play</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <div class="form-container">
+            <form>
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="John Pork">
+                <br>
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="john.gta6.pork@bmail.com">
+                <br>
+
+
+                <label>How did you find me?</label>
+                <div class="radio-group">
+                    <input type="radio" id="r1" name="r-selection" value="1" required>
+                    <label for="r1">Facebook</label>
+
+
+                    <input type="radio" id="r2" name="r-selection" value="2" required>
+                    <label for="r2">Youtube</label>
+
+
+                    <input type="radio" id="r3" name="r-selection" value="3" required>
+                    <label for="r3">Discord</label>
+                    
+                </div>
+
+
+                <br>
+
+
+                <label>Interested in:</label>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="ch1" name="interests" value="checkbox1">
+                    <label for="ch1">Web Design</label>
+
+
+                    <input type="checkbox" id="ch2" name="interests" value="checkbox2">
+                    <label for="ch2">Devlogs</label>
+
+
+                    <input type="checkbox" id="ch3" name="interests" value="checkbox3">
+                    <label for="ch3">Game Development</label>
+                </div>
+
+
+                <br>
+
+
+                <label for="selection">Rate My Page Pls :3</label>
+                <select id="selection" name="selection" required>
+                    <option value="">--Select Rating--</option>
+                    <option value="1">⭐️</option>
+                    <option value="2">⭐️⭐️</option>
+                    <option value="3">⭐️⭐️⭐️</option>
+                    <option value="4">⭐️⭐️⭐️⭐️</option>
+                    <option value="5">⭐️⭐️⭐️⭐️⭐️</option>
+                    <option value="FURRYDETECTED">UwU</option>
+                </select>
+
+
+                <br>
+
+
+                <label for="feedback">Any Feedback?</label>
+                <textarea id="feedback" name="feedback" rows="4" placeholder="write your feedback here..." required></textarea>
+
+
+                <br>
+
+
+                <button type="submit">Submit</button>
+            </form>
+
+
+        </div>
+    </section>
+
+
+    <footer>
+        <p>© 2026 Adesir "Damdam" Mortualdez Adamos Jr., 9-Emerald. All rights reserved and enforced via gulag</p>
+    </footer>
+</body>
+</html>
+
+
